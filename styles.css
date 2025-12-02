@@ -1,23 +1,29 @@
+
 body{
+    margin: 0;
+    min-height: 100vh;
     background-image: url("images/background.jpg");
-    background-color: rgba(63, 48, 21, 0.315);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .key{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
     margin-bottom: 20px;
     border: 2px solid black;
     width: 100px;
     height: 90px;
     text-align: center;
-    align-items: center;
     background-color: rgba(226, 221, 216, 0.829);
-    opacity: 50%;
+    opacity: 0.5;
 }
+
 
 
 
